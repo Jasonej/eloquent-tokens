@@ -1,0 +1,27 @@
+{
+    "name": "jasonej/eloquent-tokens",
+    "description": "A simple package designed to make dealing with one time use tokens in eloquent a little bit easier.",
+    "require": {
+        "illuminate/database": "^5.8"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Jones",
+            "email": "jason.erik.jones@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jasonej\\EloquentTokens\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jasonej\\EloquentTokens\\Tests\\": "tests/"
+        }
+    }
+}
